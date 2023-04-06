@@ -12,4 +12,7 @@ kos_barangan=float(input("Sila mausk kos barangan:RM "))
 u_bersih=float(h_jualan-kos_barangan)
 print("Untungan ialah RM",u_bersih)
 
-#kira peratusan untungan
+#kira peratusan untungan bersih
+peratus=((u_bersih/kos_barangan)*100)
+
+if peratus > 0:
