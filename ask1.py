@@ -17,3 +17,7 @@ peratus=((u_bersih/kos_barangan)*100)
 
 if peratus > 0:
     print("Keuntungan ialah:", peratus,"%")
+elif peratus == 0:
+    print ("Tiada keuntungan")
+else:
+    print("Kerugian ialah:", abs(peratus), "%")
