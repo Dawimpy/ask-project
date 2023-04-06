@@ -14,6 +14,7 @@ print("Untungan ialah RM",u_bersih)
 
 #kira peratusan untungan bersih
 peratus=((u_bersih/kos_barangan)*100)
+peratus=round(peratus,2) #Bundarkan kepada 2 digit
 
 if peratus > 0:
     print("Keuntungan ialah:", peratus,"%")
