@@ -16,3 +16,4 @@ print("Untungan ialah RM",u_bersih)
 peratus=((u_bersih/kos_barangan)*100)
 
 if peratus > 0:
+    print("Keuntungan ialah:", peratus,"%")
